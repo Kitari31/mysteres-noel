@@ -178,9 +178,23 @@ export default function EnigmePage() {
                     />
                 )}
 
+                {enigmeId === '2025-12-5' && !submitted && (
+                    <img
+                        src="/enigme_12-5.png"
+                        className="mx-auto mb-4 max-w-xs"
+                    />
+                )}
+
                 {enigmeId === '2025-12-12' && !submitted && (
                     <img
                         src="/enigme_12-12.png"
+                        className="mx-auto mb-4 rounded-xl max-w-xs w-full sm:max-w-lg"
+                    />
+                )}
+
+                {enigmeId === '2025-12-19' && !submitted && (
+                    <img
+                        src="/enigme_12-19.png"
                         className="mx-auto mb-4 rounded-xl max-w-xs w-full sm:max-w-lg"
                     />
                 )}
