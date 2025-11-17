@@ -76,8 +76,8 @@ export default function LeaderboardPage() {
                 )}
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-xl text-center w-80">
-                <h1 className="text-3xl font-bold text-[#b55118] mb-4">🎅 LeaderBoard</h1>
+            <div className="bg-white p-8 rounded-2xl shadow-xl text-center w-110">
+                <h1 className="text-3xl font-bold text-[#b55118] mb-4">🎅 Tableau des scores</h1>
                 <p className="text-gray-600 mb-4">Voici le tableau des scores !</p>
 
                 {error && <p className="text-red-600 mb-2">{error}</p>}
