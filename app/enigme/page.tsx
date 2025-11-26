@@ -50,8 +50,7 @@ export default function EnigmePage() {
     const today = new Date();
     const jourActuel = today.getDate();
 
-    // const enigmeId = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
-    const enigmeId = "2025-12-19";
+    const enigmeId = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
 
     // Yesterday logic
     const yesterday = new Date(today);
