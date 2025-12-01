@@ -21,6 +21,7 @@ export default function EnigmePage() {
             score: "Tableau des Scores",
             logout: "Se déconnecter",
             puzzleOf: "Énigme du",
+            month: "Décembre",
             points: "points",
             alreadySubmitted: "Réponse déjà soumise. Les résultats seront disponibles demain.",
             submit: "Valider",
@@ -36,6 +37,7 @@ export default function EnigmePage() {
             score: "Leaderboard",
             logout: "Log out",
             puzzleOf: "Puzzle of",
+            month: "December",
             points: "points",
             alreadySubmitted: "You already submitted today. Results available tomorrow.",
             submit: "Submit",
@@ -214,7 +216,7 @@ export default function EnigmePage() {
 
             <div className="bg-white p-8 rounded-2xl shadow-xl text-center w-130">
                 <h1 className="text-3xl font-bold text-[#b55118] mb-4">
-                    🎅 {t[lang].puzzleOf} {jourActuel} ({value} {t[lang].points})
+                    🎅 {t[lang].puzzleOf} {jourActuel} {t[lang].month} ({value} {t[lang].points})
                 </h1>
 
                 {yesterdayResult && (
