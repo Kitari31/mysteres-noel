@@ -240,9 +240,9 @@ export default function EnigmePage() {
                     />
                 )}
 
-                {enigmeId === '2025-12-5' && !submitted && (
+                {enigmeId === '2025-12-05' && !submitted && (
                     <img
-                        src="/enigme_12-5.png"
+                        src="/enigme_12-05.png"
                         className="mx-auto mb-4 max-w-xs"
                     />
                 )}
